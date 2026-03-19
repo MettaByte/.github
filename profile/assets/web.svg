@@ -1,0 +1,18 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes shift-web {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-5px); }
+      100% { transform: translateY(0); }
+    }
+    .web-bg { fill: #ec4899; opacity: 0.2; }
+    .web-frame { stroke: #ec4899; stroke-width: 4; }
+    .web-content { fill: #f472b6; animation: shift-web 3s infinite ease-in-out; }
+  </style>
+  <rect x="20" y="30" width="88" height="68" rx="6" class="web-frame"/>
+  <rect x="20" y="30" width="88" height="16" rx="6" fill="#ec4899" opacity="0.3"/>
+  <rect x="30" y="55" width="25" height="25" rx="4" class="web-content"/>
+  <rect x="65" y="55" width="33" height="6" rx="3" fill="#ec4899" opacity="0.5"/>
+  <rect x="65" y="68" width="33" height="6" rx="3" fill="#ec4899" opacity="0.5"/>
+  <rect x="65" y="81" width="20" height="6" rx="3" fill="#ec4899" opacity="0.5"/>
+</svg>

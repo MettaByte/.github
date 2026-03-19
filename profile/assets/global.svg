@@ -1,0 +1,16 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes rotate-global {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    .globe { transform-origin: center; animation: rotate-global 20s infinite linear; }
+    .global-stroke { stroke: #10b981; stroke-width: 4; stroke-linecap: round; }
+  </style>
+  <circle cx="64" cy="64" r="50" class="global-stroke"/>
+  <g class="globe">
+    <ellipse cx="64" cy="64" rx="20" ry="50" class="global-stroke" fill="none"/>
+    <ellipse cx="64" cy="64" rx="50" ry="20" class="global-stroke" fill="none"/>
+    <path d="M14 64H114M64 14V114" class="global-stroke"/>
+  </g>
+</svg>

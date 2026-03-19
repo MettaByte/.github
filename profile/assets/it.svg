@@ -1,0 +1,16 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes spin-it {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(180deg); }
+    }
+    .gear { transform-origin: center; animation: spin-it 4s infinite linear; }
+    .it-stroke { stroke: #3b82f6; stroke-width: 4; stroke-linecap: round; }
+  </style>
+  <path d="M40 88L24 104M104 24L88 40" class="it-stroke"/>
+  <circle cx="64" cy="64" r="32" class="it-stroke" stroke-dasharray="8 8"/>
+  <g class="gear">
+    <circle cx="64" cy="64" r="12" class="it-stroke"/>
+    <path d="M64 42V52M64 76V86M42 64H52M76 64H86" class="it-stroke"/>
+  </g>
+</svg>
